@@ -24,12 +24,12 @@
 </table>
 <h3>Setup Instructions</h3>
 <ol>
-    <li style="font-family: Arial, Helvetica, sans-serif";>hbase-2.1.6 > lib > phoenix-5.0.0-HBase-2.0-server.jar</li>
-    <li style="font-family: Arial, Helvetica, sans-serif";>apache-tomcat-8.5.55 > lib > phoenix-5.0.0-HBase-2.0-client.jar</li>
+    <li>hbase-2.1.6 > lib > phoenix-5.0.0-HBase-2.0-server.jar</li>
+    <li>apache-tomcat-8.5.55 > lib > phoenix-5.0.0-HBase-2.0-client.jar</li>
 </ol>
 <h3>Key Classes</h3>
 <ul>
-    <li style="list-style-type: circle";>javax.servlet.http.HttpServlet</li>
+    <li>javax.servlet.http.HttpServlet</li>
     <li>javax.servlet.http.HttpServletRequest</li>
     <li>javax.servlet.http.HttpServletResponse</li>
     <li>java.sql.DriverManager</li>

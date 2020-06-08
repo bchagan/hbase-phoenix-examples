@@ -5,7 +5,6 @@
   Time: 12:43 PM
   To change this template use File | Settings | File Templates.
 --%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -13,13 +12,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
 <h3>HBase Sample App</h3>
-<!-- ul>
-    <li><a href="CreateTable">Create Table</a></li>
-    <li><a href="UpsertData">Put Data</a></li>
-    <li><a href="QueryTable">Get Data</a></li>
-</ul -->
 <table>
     <tr>
         <td><a href="setup.jsp">Setup</a></td>
@@ -28,7 +21,6 @@
         <td><a href="QueryTable">Get Data</a></td>
     </tr>
 </table>
-<div>
 <h3>Query Table Code</h3>
     <pre>
         <code>
@@ -81,6 +73,5 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 }
     </code>
 </pre>
-</div>
 </body>
 </html>
