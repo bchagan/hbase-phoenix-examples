@@ -25,9 +25,20 @@
 </table>
 <div>
 <h3>Setup Instructions</h3>
-
-    <p>1. hbase-2.1.6 > lib > phoenix-5.0.0-HBase-2.0-server.jar</p>
-    <p>2. apache-tomcat-8.5.55 > lib > phoenix-5.0.0-HBase-2.0-client.jar</p>
+    <ol>
+        <li>hbase-2.1.6 > lib > phoenix-5.0.0-HBase-2.0-server.jar</li>
+        <li>apache-tomcat-8.5.55 > lib > phoenix-5.0.0-HBase-2.0-client.jar</li>
+    </ol>
+    <h3>Key Classes</h3>
+    <ul>
+        <li>javax.servlet.http.HttpServlet</li>
+        <li>javax.servlet.http.HttpServletRequest</li>
+        <li>javax.servlet.http.HttpServletResponse</li>
+        <li>java.sql.DriverManager</li>
+        <li>java.sql.Connection</li>
+        <li>java.sql.Statement</li>
+        <li>java.sql.ResultSet</li>
+    </ul>
 </div>
 </body>
 </html>
