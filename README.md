@@ -12,7 +12,7 @@ performs the operation and in response, the actual code that you need to impleme
 
 <img src="images/sample.png"  alt="sample image"/>
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true">
+  <video width="320" height="240" controls>
     <source src="video/sample.mp4" type="video/mp4">
   </video>
 </figure>
