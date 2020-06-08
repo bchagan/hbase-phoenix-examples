@@ -1,3 +1,4 @@
 # Project exclude paths
-/out/
+/out/artifacts/hbase_webapp_war_exploded
+/out/production
 .idea/
