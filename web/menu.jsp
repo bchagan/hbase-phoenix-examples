@@ -18,11 +18,6 @@
 <body>
 <h3>HBase Sample App</h3>
 
-<!-- ul>
-    <li><a href="CreateTable">Create Table</a></li>
-    <li><a href="UpsertData">Put Data</a></li>
-    <li><a href="QueryTable">Get Data</a></li>
-</ul -->
 <table>
     <tr>
         <td><a href="setup.jsp">Setup</a></td>
