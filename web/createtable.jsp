@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<h3>HBase Sample App</h3>
+<h2>HBase Phoenix Sample App</h2>
 <table>
     <tr>
         <td><a href="setup.jsp">Setup</a></td>
