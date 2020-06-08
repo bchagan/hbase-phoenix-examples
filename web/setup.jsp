@@ -37,5 +37,10 @@
     <li>java.sql.Statement</li>
     <li>java.sql.ResultSet</li>
 </ul>
+<h3>JDBC Information</h3>
+<ul>
+    <li>Driver Class - org.apache.phoenix.jdbc.PhoenixDriver</li>
+    <li>JDBC URL - jdbc:phoenix:localhost</li>
+</ul>
 </body>
 </html>
