@@ -45,7 +45,8 @@ public void init(ServletConfig config) throws ServletException {
 
 protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    String queryText = "CREATE TABLE IF NOT EXISTS demo.events (ln CHAR(15) not null, fn CHAR(15) not null, et TINYINT, ts TIMESTAMP not null, CONSTRAINT pk PRIMARY KEY (ln, fn, ts))";
+    String queryText = "CREATE TABLE IF NOT EXISTS demo.events (ln CHAR(15) not null, fn CHAR(15) not null, et TINYINT, " +
+                        "ts TIMESTAMP not null, CONSTRAINT pk PRIMARY KEY (ln, fn, ts))";
     Statement stmt;
 
     try {
