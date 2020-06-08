@@ -3,6 +3,10 @@ html {
     background-color: #f1f1f1;
 }
 
+pre {
+    padding: 8px 16px;
+}
+
 ul {
     list-style-type: disc;
 }
@@ -48,9 +52,3 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-pre {
-    left: 210px;
-    top:58px;
-    padding: 8px 16px;
-    border-color:black;
-}
