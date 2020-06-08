@@ -53,8 +53,12 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
     Statement stmt;
 
     try {
-        stmt = connection.createStatement();
-        boolean result = stmt.executeQuery(queryText);
+        Statement stmt = connection.createStatement();
+        int result = stmt.executeUpdate(queryText);
+        System.out.println(queryText);
+        System.out.println(result);
+        stmt.close();
+        connection.commit();
     } catch (SQLException e) {
         e.printStackTrace();
     }

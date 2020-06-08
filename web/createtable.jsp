@@ -54,6 +54,7 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
     try {
         stmt = connection.createStatement();
         boolean result = stmt.execute(queryText);
+        stmt.close();
     } catch (SQLException e) {
         e.printStackTrace();
     }
