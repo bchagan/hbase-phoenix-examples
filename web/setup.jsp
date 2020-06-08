@@ -13,7 +13,6 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
 <h3>HBase Sample App</h3>
 <table>
     <tr>
@@ -23,22 +22,20 @@
         <td><a href="QueryTable">Get Data</a></td>
     </tr>
 </table>
-<div>
 <h3>Setup Instructions</h3>
-    <ol>
-        <li>hbase-2.1.6 > lib > phoenix-5.0.0-HBase-2.0-server.jar</li>
-        <li>apache-tomcat-8.5.55 > lib > phoenix-5.0.0-HBase-2.0-client.jar</li>
-    </ol>
-    <h3>Key Classes</h3>
-    <ul>
-        <li>javax.servlet.http.HttpServlet</li>
-        <li>javax.servlet.http.HttpServletRequest</li>
-        <li>javax.servlet.http.HttpServletResponse</li>
-        <li>java.sql.DriverManager</li>
-        <li>java.sql.Connection</li>
-        <li>java.sql.Statement</li>
-        <li>java.sql.ResultSet</li>
-    </ul>
-</div>
+<ol>
+    <li style="font-family: Arial, Helvetica, sans-serif";>hbase-2.1.6 > lib > phoenix-5.0.0-HBase-2.0-server.jar</li>
+    <li style="font-family: Arial, Helvetica, sans-serif";>apache-tomcat-8.5.55 > lib > phoenix-5.0.0-HBase-2.0-client.jar</li>
+</ol>
+<h3>Key Classes</h3>
+<ul>
+    <li>javax.servlet.http.HttpServlet</li>
+    <li>javax.servlet.http.HttpServletRequest</li>
+    <li>javax.servlet.http.HttpServletResponse</li>
+    <li>java.sql.DriverManager</li>
+    <li>java.sql.Connection</li>
+    <li>java.sql.Statement</li>
+    <li>java.sql.ResultSet</li>
+</ul>
 </body>
 </html>
