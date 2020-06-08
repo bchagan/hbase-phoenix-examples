@@ -31,6 +31,7 @@
     <pre>
         <code>
 private Connection connection;
+
 public void init(ServletConfig config) throws ServletException {
 
     try {
