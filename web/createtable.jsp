@@ -32,6 +32,7 @@
 <h3>Create Table Code</h3>
     <pre>
         <code>
+private Connection connection;
 public void init(ServletConfig config) throws ServletException {
 
     try {
