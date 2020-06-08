@@ -29,7 +29,7 @@
 </ol>
 <h3>Key Classes</h3>
 <ul>
-    <li>javax.servlet.http.HttpServlet</li>
+    <li style="list-style-type: circle";>javax.servlet.http.HttpServlet</li>
     <li>javax.servlet.http.HttpServletRequest</li>
     <li>javax.servlet.http.HttpServletResponse</li>
     <li>java.sql.DriverManager</li>
