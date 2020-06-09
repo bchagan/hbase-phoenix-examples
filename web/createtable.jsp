@@ -8,6 +8,7 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
+
 <head>
     <title>Create Table</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
